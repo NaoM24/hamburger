@@ -378,6 +378,16 @@ video {
 * Foundation
 * ========================== */
 /* base */
+html {
+  font-size: 62.5%;
+  font-family: "M PLUS 1", sans-serif;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
 /** 
 * Layout
 * ======================== */
@@ -388,5 +398,7 @@ video {
 /* Button */
 /* Project ------------ */
 /* Articles */
-
+h1 {
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */
