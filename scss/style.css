@@ -381,6 +381,7 @@ video {
 html {
   font-size: 62.5%;
   font-family: "M PLUS 1", sans-serif;
+  display: block;
 }
 
 * {
@@ -392,13 +393,46 @@ html {
 * Layout
 * ======================== */
 /* Header */
+.l-header {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-color: #FFF7EF;
+  font-family: "Roboto", sans-serif;
+}
+
 /* Object
 * ========================== */
 /* Component ------------ */
 /* Button */
 /* Project ------------ */
 /* Articles */
-h1 {
-  color: red;
+.p-header__title {
+  font-size: 2.5rem;
+}
+.p-header__title a {
+  color: #808080;
+}
+
+.p-search__form--keyword {
+  border: solid #707070;
+  border-radius: 0.6rem;
+  border-width: thin;
+  background-color: #fff;
+  width: 20rem;
+  height: 3rem;
+  font-weight: 500;
+}
+.p-search__form--submit {
+  color: #808080;
+  border: solid #707070;
+  border-radius: 0.6rem;
+  border-width: thin;
+  background-color: #f2ede9;
+  cursor: pointer;
+  width: 7rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

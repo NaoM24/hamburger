@@ -1,2 +1,33 @@
 /* Project ------------ */
 /* Articles */ 
+
+.p-header__title {
+    font-size: 2.5rem;
+    a{
+        color: #808080;
+    }
+}
+
+.p-search__form {
+    &--keyword {
+        border: solid #707070;
+        border-radius: 0.6rem;
+        border-width: thin;
+        background-color: #fff;
+        width: 20rem;
+        height: 3rem;
+        font-weight: 500;
+    }
+    &--submit {
+        color: #808080;
+        border: solid #707070;
+        border-radius: 0.6rem;
+        border-width: thin;
+        background-color: #f2ede9;
+        cursor: pointer;
+        width: 7rem;
+        height: 3rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
