@@ -395,7 +395,7 @@ html {
 /* Header */
 .l-header {
   width: 100%;
-  height: 150px;
+  height: 21rem;
   text-align: center;
   background-color: #FFF7EF;
   font-family: "Roboto", sans-serif;
@@ -408,31 +408,34 @@ html {
 /* Project ------------ */
 /* Articles */
 .p-header__title {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+  padding-top: 9%;
 }
 .p-header__title a {
-  color: #808080;
+  color: #707070;
 }
 
 .p-search__form--keyword {
-  border: solid #707070;
-  border-radius: 0.6rem;
-  border-width: thin;
+  border: 1px solid #707070;
+  border-radius: 0.7rem;
   background-color: #fff;
-  width: 20rem;
-  height: 3rem;
+  width: 23.5rem;
+  height: 4.5rem;
   font-weight: 500;
+  margin-top: 9%;
+  margin-right: 2.5%;
 }
 .p-search__form--submit {
   color: #808080;
-  border: solid #707070;
-  border-radius: 0.6rem;
-  border-width: thin;
-  background-color: #f2ede9;
+  border: 1px solid #707070;
+  border-radius: 0.7rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F2EDE9), to(#DED8E3));
+  background: linear-gradient(#F2EDE9, #DED8E3);
   cursor: pointer;
   width: 7rem;
-  height: 3rem;
-  font-size: 1.2rem;
+  height: 4.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
+  vertical-align: middle;
 }
 /*# sourceMappingURL=style.css.map */
