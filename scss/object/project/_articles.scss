@@ -12,7 +12,7 @@
 .p-search__form {
     &--keyword {
         border: 1px solid #707070;
-        border-radius: 0.7rem;
+        border-radius: 1rem;
         background-color: #fff;
         width: 23.5rem;
         height: 4.5rem;
@@ -23,13 +23,28 @@
     &--submit {
         color: #808080;
         border: 1px solid #707070;
-        border-radius: 0.7rem;
+        border-radius: 1rem;
         background: linear-gradient(#F2EDE9, #DED8E3);
         cursor: pointer;
-        width: 7rem;
+        width: 7.6rem;
         height: 4.5rem;
         font-size: 1.6rem;
         font-weight: bold;
         vertical-align: middle;
+    }
+}
+
+.p-main__top {
+    height: 30rem;
+    position: relative;
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5rem;
+        font-weight: 600;
+        color: #fff;
+        position: absolute;
+        top: 42%;
+        left: 5.5%;
     }
 }
