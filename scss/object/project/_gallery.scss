@@ -1,4 +1,15 @@
 .p-main__top {
-    background-image: url("../images/front/mainvisual-sp.jpg") no-repeat;
+    background-image: url("../images/front/mainvisual-sp.jpg");
     background-size: 100%;
+}
+
+.p-container {
+    &__left {
+        background-image: url("../images/front/takeout.png");
+        background-size: 100%;
+    }
+    &__right {
+        background-image: url("../images/front/eatin.png");
+        background-size: 100%;
+    }
 }
