@@ -1,3 +1,4 @@
+
 .p-main__top {
     background-image: url("../images/front/mainvisual-sp.jpg");
     background-size: 100%;
@@ -11,5 +12,45 @@
     &__right {
         background-image: url("../images/front/eatin.png");
         background-size: 100%;
+    }
+}
+
+.p-access {
+    height: 75rem;
+    background-image: url("../images/front/map.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+
+    .p-access__wrapper {
+        position: absolute;
+        width: 80%;
+        top: 5%;
+        left: 10%;
+    
+        .p-access__title {
+            font-size: 3rem;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+
+        .p-access__title--border {
+            display: inline-block;
+            transform: scale(3.5, 0.8);
+            padding-left: 12px;
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+        }
+
+        .p-access__title--text {
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            color: #fff;
+            font-size: 1.4rem;
+            line-height: 3.2rem;
+            }
     }
 }

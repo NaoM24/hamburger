@@ -455,7 +455,7 @@ html {
 
 .p-branch__menu {
   width: 100%;
-  height: 136rem;
+  height: 130rem;
 }
 
 .p-container__left, .p-container__right {
@@ -464,7 +464,7 @@ html {
   height: 65rem;
   position: relative;
 }
-.p-container__left h2 a :hover, .p-container__right h2 a :hover {
+.p-container__left .p-container__title a :hover, .p-container__right .p-container__title a :hover {
   color: rgba(247, 245, 245, 0.6);
 }
 .p-container__left p, .p-container__right p {
@@ -521,14 +521,14 @@ html {
   color: #3C2A10;
   padding: 16px 0 0 12px;
 }
-.p-branch__menu h2 {
+.p-branch__menu .p-container__title {
   font-family: "Roboto", sans-serif;
   font-size: 4rem;
   font-weight: 500;
   color: #fff;
   padding: 16px 0 0 12px;
 }
-.p-branch__menu h2 a {
+.p-branch__menu .p-container__title a {
   color: #fff;
 }
 
@@ -544,5 +544,43 @@ html {
 .p-container__right {
   background-image: url("../images/front/eatin.png");
   background-size: 100%;
+}
+
+.p-access {
+  height: 75rem;
+  background-image: url("../images/front/map.png");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  margin-top: 2rem;
+}
+.p-access .p-access__wrapper {
+  position: absolute;
+  width: 80%;
+  top: 5%;
+  left: 10%;
+}
+.p-access .p-access__wrapper .p-access__title {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.p-access .p-access__wrapper .p-access__title--border {
+  display: inline-block;
+  -webkit-transform: scale(3.5, 0.8);
+          transform: scale(3.5, 0.8);
+  padding-left: 12px;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.p-access .p-access__wrapper .p-access__title--text {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 3.2rem;
 }
 /*# sourceMappingURL=style.css.map */

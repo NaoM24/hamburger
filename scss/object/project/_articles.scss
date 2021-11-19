@@ -51,7 +51,7 @@
 
 .p-branch__menu {
     width: 100%;
-    height: 136rem;
+    height: 130rem;
 }
 
 .p-container {
@@ -61,7 +61,7 @@
         height: 65rem;
         position: relative;
 
-        h2 {
+        .p-container__title {
             a :hover {
                 color: rgba(247, 245, 245, 0.6);
             }
@@ -69,7 +69,7 @@
 
         p {
             display: inline-block;
-            transform   : scale(1.3, 0.8);
+            transform: scale(1.3, 0.8);
             padding-left: 3px;
         }
 
