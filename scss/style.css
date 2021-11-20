@@ -409,7 +409,7 @@ html {
 /* Articles */
 .p-header__title {
   font-size: 2.8rem;
-  padding-top: 9%;
+  padding-top: 4rem;
 }
 .p-header__title a {
   color: #707070;
@@ -422,7 +422,7 @@ html {
   width: 23.5rem;
   height: 4.5rem;
   font-weight: 500;
-  margin-top: 9%;
+  margin-top: 3rem;
   margin-right: 2.5%;
 }
 .p-search__form--submit {
@@ -521,6 +521,36 @@ html {
   color: #3C2A10;
   padding: 16px 0 0 12px;
 }
+.p-footer {
+  height: 15rem;
+  width: 100%;
+  background-color: #9D8670;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.p-footer .p-footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 26.5rem;
+  height: 80%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+.p-footer .p-footer__menu a {
+  color: #fff;
+}
+.p-footer small {
+  font-weight: bold;
+  color: #fff;
+}
+
 .p-branch__menu .p-container__title {
   font-family: "Roboto", sans-serif;
   font-size: 4rem;
@@ -552,7 +582,6 @@ html {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.6);
   position: relative;
-  margin-top: 2rem;
 }
 .p-access .p-access__wrapper {
   position: absolute;
