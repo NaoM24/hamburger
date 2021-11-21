@@ -455,7 +455,6 @@ html {
 
 .p-branch__menu {
   width: 100%;
-  height: 130rem;
 }
 
 .p-container__left, .p-container__right {
@@ -525,10 +524,10 @@ html {
   height: 15rem;
   width: 100%;
   background-color: #9D8670;
-  bottom: 0;
+  margin-top: 20px;
   text-align: center;
 }
-.p-footer .p-footer__menu {
+.p-footer__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -542,7 +541,7 @@ html {
   font-weight: bold;
   color: #fff;
 }
-.p-footer .p-footer__menu a {
+.p-footer__menu a {
   color: #fff;
 }
 .p-footer small {
@@ -579,22 +578,27 @@ html {
   height: 75rem;
   background-image: url("../images/front/map.png");
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
   position: relative;
+  top: 20px;
 }
-.p-access .p-access__wrapper {
+.p-access__backcolor {
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.p-access__wrapper {
   position: absolute;
   width: 80%;
   top: 5%;
   left: 10%;
 }
-.p-access .p-access__wrapper .p-access__title {
+.p-access__wrapper .p-access__title {
   font-size: 3rem;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
-.p-access .p-access__wrapper .p-access__title--border {
+.p-access__wrapper .p-access__title--border {
   display: inline-block;
   -webkit-transform: scale(3.5, 0.8);
           transform: scale(3.5, 0.8);
@@ -604,7 +608,7 @@ html {
   font-family: "Roboto", sans-serif;
   color: #fff;
 }
-.p-access .p-access__wrapper .p-access__title--text {
+.p-access__wrapper .p-access__title--text {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #fff;

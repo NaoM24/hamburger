@@ -51,7 +51,6 @@
 
 .p-branch__menu {
     width: 100%;
-    height: 130rem;
 }
 
 .p-container {
@@ -128,14 +127,15 @@
         @extend .p-container__left;
     }
 }
+
 .p-footer {
     height: 15rem;
     width: 100%;
     background-color: #9D8670;
-    bottom: 0;
+    margin-top: 20px;
     text-align: center;
 
-    .p-footer__menu {
+    &__menu {
         display: flex;
         width: 26.5rem;
         height: 80%;

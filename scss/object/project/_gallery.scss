@@ -19,10 +19,16 @@
     height: 75rem;
     background-image: url("../images/front/map.png");
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.9);
     position: relative;
+    top: 20px;
 
-    .p-access__wrapper {
+    &__backcolor {
+        height: 60%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    &__wrapper {
         position: absolute;
         width: 80%;
         top: 5%;
