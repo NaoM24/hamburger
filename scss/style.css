@@ -525,7 +525,6 @@ html {
   height: 15rem;
   width: 100%;
   background-color: #9D8670;
-  position: absolute;
   bottom: 0;
   text-align: center;
 }
@@ -611,5 +610,20 @@ html {
   color: #fff;
   font-size: 1.4rem;
   line-height: 3.2rem;
+}
+
+.p-sidebar__button {
+  position: fixed;
+  z-index: 10;
+  right: 1.5rem;
+  top: 1.5rem;
+}
+.p-sidebar__button p {
+  font-size: 2rem;
+  color: #707070;
+}
+
+.l-contents__right {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

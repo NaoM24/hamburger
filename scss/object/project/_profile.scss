@@ -1,0 +1,15 @@
+.p-sidebar__button {
+    position: fixed;
+    z-index: 10;
+    right: 1.5rem;
+    top: 1.5rem;
+
+    p {
+        font-size: 2rem;
+        color: #707070;
+    }
+}
+
+.l-contents__right {
+    display: none;
+}
