@@ -1,6 +1,11 @@
 /* Project ------------ */
 /* Articles */ 
 
+@use "foundation/mixin";
+
+.aaa {
+    @include font;
+}
 .p-header__title {
     font-size: 2.8rem;
     padding-top: 4rem;
