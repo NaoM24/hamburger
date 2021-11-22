@@ -1,3 +1,7 @@
+/* Project ------------ */
+/* Gallery */ 
+
+@use "../../foundation/mixin";
 
 .p-main__top {
     background-image: url("../images/front/mainvisual-sp.jpg");
@@ -36,9 +40,7 @@
     
         .p-access__title {
             font-size: 3rem;
-            color: #fff;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
+            @include mixin.font;
         }
 
         .p-access__title--border {
@@ -46,17 +48,13 @@
             transform: scale(3.5, 0.8);
             padding-left: 12px;
             font-size: 3rem;
-            font-weight: bold;
-            font-family: 'Roboto', sans-serif;
-            color: #fff;
+            @include mixin.font;
         }
 
         .p-access__title--text {
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            color: #fff;
             font-size: 1.4rem;
             line-height: 3.2rem;
+            @include mixin.font;
             }
     }
 }

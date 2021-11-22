@@ -1,11 +1,15 @@
+/* Project ------------ */
+/* Comments */ 
+
+@use "../../foundation/mixin";
+
 .p-branch__menu {
     
     .p-container__title {
-        font-family: 'Roboto', sans-serif;
         font-size: 4rem;
-        font-weight: 500;
-        color: #fff;
         padding: 16px 0 0 12px;
+        @include mixin.font;
+        
         a {
             color: #fff;
         }
