@@ -3,3 +3,17 @@
     font-weight: bold;
     color: #fff;
 }
+
+$tab: 600px;
+@mixin tab {
+    @media (min-width: ($tab)) {
+        @content;
+    }
+}
+
+$pc: 1025px;
+@mixin pc {
+    @media (min-width: ($pc)) {
+        @content;
+    }
+}

@@ -3,7 +3,7 @@
 
 @use "../../foundation/mixin";
 
-.p-sidebar__button {
+.p-menu__button {
     position: fixed;
     z-index: 10;
     right: 1.5rem;
@@ -15,6 +15,30 @@
     }
 }
 
-.l-contents__right {
+.p-sidebar {
     display: none;
+    background-color: #FFF7EF;
+    color: #707070;
+    padding-left: 5rem;
+
+    h2 {
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        padding: 2rem 0;
+    }
+
+    h3 {
+        font-size: 2rem;
+        font-weight: bolder;
+        padding: 2.5rem 0;
+    }
+
+    ul {
+        li {
+            font-size: 1.6rem;
+            font-weight: bold;
+            line-height: 2.7;
+        }
+    }
 }

@@ -568,6 +568,8 @@ html {
   color: #fff;
 }
 
+/* Project ------------ */
+/* Gallery */
 .p-main__top {
   background-image: url("../images/front/mainvisual-sp.jpg");
   background-size: 100%;
@@ -602,9 +604,9 @@ html {
 }
 .p-access__wrapper .p-access__title {
   font-size: 3rem;
-  color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  color: #fff;
 }
 .p-access__wrapper .p-access__title--border {
   display: inline-block;
@@ -612,30 +614,51 @@ html {
           transform: scale(3.5, 0.8);
   padding-left: 12px;
   font-size: 3rem;
-  font-weight: bold;
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
   color: #fff;
 }
 .p-access__wrapper .p-access__title--text {
+  font-size: 1.4rem;
+  line-height: 3.2rem;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #fff;
-  font-size: 1.4rem;
-  line-height: 3.2rem;
 }
 
-.p-sidebar__button {
+/* Project ------------ */
+/* Profile */
+.p-menu__button {
   position: fixed;
   z-index: 10;
   right: 1.5rem;
   top: 1.5rem;
 }
-.p-sidebar__button p {
+.p-menu__button p {
   font-size: 2rem;
   color: #707070;
 }
 
-.l-contents__right {
+.p-sidebar {
   display: none;
+  background-color: #FFF7EF;
+  color: #707070;
+  padding-left: 5rem;
+}
+.p-sidebar h2 {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+.p-sidebar h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 2.5rem 0;
+}
+.p-sidebar ul li {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2.7;
 }
 /*# sourceMappingURL=style.css.map */
