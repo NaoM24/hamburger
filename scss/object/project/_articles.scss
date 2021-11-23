@@ -15,31 +15,6 @@
     }
 }
 
-.p-search__form {
-    &--keyword {
-        border: 1px solid #707070;
-        border-radius: 1rem;
-        background-color: #fff;
-        width: 23.5rem;
-        height: 4.5rem;
-        font-weight: 500;
-        margin-top: 3rem;
-        margin-right: 2.5%;
-    }
-    &--submit {
-        color: #808080;
-        border: 1px solid #707070;
-        border-radius: 1rem;
-        background: linear-gradient(#F2EDE9, #DED8E3);
-        cursor: pointer;
-        width: 7.6rem;
-        height: 4.5rem;
-        font-size: 1.6rem;
-        font-weight: bold;
-        vertical-align: middle;
-    }
-}
-
 .p-main__top {
     height: 30rem;
     position: relative;

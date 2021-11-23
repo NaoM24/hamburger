@@ -401,6 +401,20 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+@media (min-width: 1025px) {
+  .l-contents__left {
+    width: 80%;
+  }
+}
+@media (min-width: 1025px) {
+  .l-contents__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20%;
+  }
+}
+
 /* Object
 * ========================== */
 /* Component ------------ */
@@ -419,30 +433,6 @@ html {
 }
 .p-header__title a {
   color: #707070;
-}
-
-.p-search__form--keyword {
-  border: 1px solid #707070;
-  border-radius: 1rem;
-  background-color: #fff;
-  width: 23.5rem;
-  height: 4.5rem;
-  font-weight: 500;
-  margin-top: 3rem;
-  margin-right: 2.5%;
-}
-.p-search__form--submit {
-  color: #808080;
-  border: 1px solid #707070;
-  border-radius: 1rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#F2EDE9), to(#DED8E3));
-  background: linear-gradient(#F2EDE9, #DED8E3);
-  cursor: pointer;
-  width: 7.6rem;
-  height: 4.5rem;
-  font-size: 1.6rem;
-  font-weight: bold;
-  vertical-align: middle;
 }
 
 .p-main__top {
@@ -637,6 +627,60 @@ html {
 .p-menu__button p {
   font-size: 2rem;
   color: #707070;
+}
+
+.p-search__icon {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  display: block;
+  -webkit-transform: scale(var(--ggs, 1));
+          transform: scale(var(--ggs, 1));
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-radius: 100%;
+  margin-left: -4px;
+  margin-top: -4px;
+}
+.p-search__icon::after {
+  content: "";
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 8px;
+  background: currentColor;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 10px;
+  left: 12px;
+}
+
+.p-search__form--keyword {
+  border: 1px solid #707070;
+  border-radius: 1rem;
+  background-color: #fff;
+  width: 23.5rem;
+  height: 4.5rem;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-right: 2.5%;
+}
+.p-search__form--submit {
+  color: #808080;
+  border: 1px solid #707070;
+  border-radius: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F2EDE9), to(#DED8E3));
+  background: linear-gradient(#F2EDE9, #DED8E3);
+  cursor: pointer;
+  width: 7.6rem;
+  height: 4.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 .p-sidebar {

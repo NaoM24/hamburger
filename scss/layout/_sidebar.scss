@@ -1,0 +1,15 @@
+@use "../foundation/mixin";
+
+.l-contents {
+    &__left {
+        @include mixin.pc{
+            width: 80%;
+        }
+    }
+    &__right {
+        @include mixin.pc{
+            display: flex;
+            width: 20%;
+        }
+    }
+}
