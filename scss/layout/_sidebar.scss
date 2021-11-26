@@ -10,6 +10,14 @@
         @include mixin.pc{
             display: flex;
             width: 20%;
+            background-color: #F2EDE9;
+            height: inherit;
+        };
+
+        &.is-open {
+            z-index: 200;
+            left: 60%;
+            width: 40%;
         }
     }
 }

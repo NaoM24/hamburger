@@ -3,9 +3,6 @@
 
 @use "../../foundation/mixin";
 
-.aaa {
-    @include mixin.font;
-}
 
 .p-header__title {
     font-size: 2.8rem;
