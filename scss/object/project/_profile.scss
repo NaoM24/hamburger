@@ -15,32 +15,32 @@
     }
 }
 
-.p-search__icon {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    transform: scale(var(--ggs,1));
-    width: 16px;
-    height: 16px;
-    border: 2px solid;
-    border-radius: 100%;
-    margin-left: -4px;
-    margin-top: -4px;
+// .p-search__icon {
+//     box-sizing: border-box;
+//     position: relative;
+//     display: block;
+//     transform: scale(var(--ggs,1));
+//     width: 16px;
+//     height: 16px;
+//     border: 2px solid;
+//     border-radius: 100%;
+//     margin-left: -4px;
+//     margin-top: -4px;
 
-    &::after {
-        content: "";
-        display: block;
-        box-sizing: border-box;
-        position: absolute;
-        border-radius: 3px;
-        width: 2px;
-        height: 8px;
-        background: currentColor;
-        transform: rotate(-45deg);
-        top: 10px;
-        left: 12px
-    }
-}
+//     &::after {
+//         content: "";
+//         display: block;
+//         box-sizing: border-box;
+//         position: absolute;
+//         border-radius: 3px;
+//         width: 2px;
+//         height: 8px;
+//         background: currentColor;
+//         transform: rotate(-45deg);
+//         top: 10px;
+//         left: 12px
+//     }
+// }
 
 .p-search__form {
     &--keyword {
@@ -52,7 +52,25 @@
         font-weight: 500;
         margin-top: 3rem;
         margin-right: 2.5%;
+        display: inline-block;
+        position: relative;
+
+        &::before {
+            content: "";           /* 疑似要素に必須 */
+            width: 16px;           /* アイコンの横幅 */
+            height: 16px;          /* アイコンの高さ */
+            background: url(../images/front/search.png) no-repeat center center / auto 100%; /* 背景にアイコン画像を配置 */
+            display: inline-block; /* 高さを持たせるためにインラインブロック要素にする */
+            position: absolute;    /* 相対位置に指定 */
+            top: 4px;              /* アイコンの位置。微調整してね */
+            left: 5px;             /* アイコンの位置。微調整してね */
+        }
+        
+        > input {
+            padding: 3px 0 3px 2em; /* アイコンを設置するため左の余白を多めに指定*/
+        }
     }
+
     &--submit {
         color: #808080;
         border: 1px solid #707070;
