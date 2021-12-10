@@ -395,7 +395,7 @@ html {
 /* Header */
 .l-header {
   width: 100%;
-  height: 21rem;
+  height: 22rem;
   text-align: center;
   background-color: #FFF7EF;
   font-family: "Roboto", sans-serif;
@@ -629,24 +629,16 @@ html {
   color: #707070;
 }
 
-.p-search__form--keyword {
-  border: 1px solid #707070;
-  border-radius: 1rem;
-  background-color: #fff;
-  width: 23.5rem;
-  height: 4.5rem;
-  font-weight: 500;
-  margin-top: 3rem;
-  margin-right: 2.5%;
+.p-search__form {
   display: inline-block;
   position: relative;
 }
-.p-search__form--keyword::before {
+.p-search__form::before {
   content: "";
   /* 疑似要素に必須 */
-  width: 16px;
+  width: 24px;
   /* アイコンの横幅 */
-  height: 16px;
+  height: 24px;
   /* アイコンの高さ */
   background: url(../images/front/search.png) no-repeat center center/auto 100%;
   /* 背景にアイコン画像を配置 */
@@ -654,17 +646,23 @@ html {
   /* 高さを持たせるためにインラインブロック要素にする */
   position: absolute;
   /* 相対位置に指定 */
-  top: 4px;
-  /* アイコンの位置。微調整してね */
-  left: 5px;
-  /* アイコンの位置。微調整してね */
+  top: 4.5rem;
+  padding-left: 5.5rem;
 }
-.p-search__form--keyword > input {
-  padding: 3px 0 3px 2em;
-  /* アイコンを設置するため左の余白を多めに指定*/
+.p-search__form--keyword {
+  border: 1px solid #707070;
+  border-radius: 1rem;
+  background-color: #fff;
+  width: 24rem;
+  height: 4.5rem;
+  font-weight: 500;
+  margin-top: 3.5rem;
+  margin-right: 10rem;
+  padding: 0 0 3px 5rem;
+  font-size: 2rem;
 }
 .p-search__form--submit {
-  color: #808080;
+  color: #707070;
   border: 1px solid #707070;
   border-radius: 1rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#F2EDE9), to(#DED8E3));
@@ -675,6 +673,9 @@ html {
   font-size: 1.6rem;
   font-weight: bold;
   vertical-align: middle;
+  position: absolute;
+  top: 3.5rem;
+  left: 26rem;
 }
 
 .p-sidebar {

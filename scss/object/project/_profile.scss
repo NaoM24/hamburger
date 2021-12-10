@@ -43,36 +43,35 @@
 // }
 
 .p-search__form {
+    display: inline-block;
+    position: relative;
+
+    &::before {
+        content: "";           /* 疑似要素に必須 */
+        width: 24px;           /* アイコンの横幅 */
+        height: 24px;          /* アイコンの高さ */
+        background: url(../images/front/search.png) no-repeat center center / auto 100%; /* 背景にアイコン画像を配置 */
+        display: inline-block; /* 高さを持たせるためにインラインブロック要素にする */
+        position: absolute;    /* 相対位置に指定 */
+        top: 4.5rem;
+        padding-left: 5.5rem;
+    }
+
     &--keyword {
         border: 1px solid #707070;
         border-radius: 1rem;
         background-color: #fff;
-        width: 23.5rem;
+        width: 24rem;
         height: 4.5rem;
         font-weight: 500;
-        margin-top: 3rem;
-        margin-right: 2.5%;
-        display: inline-block;
-        position: relative;
-
-        &::before {
-            content: "";           /* 疑似要素に必須 */
-            width: 16px;           /* アイコンの横幅 */
-            height: 16px;          /* アイコンの高さ */
-            background: url(../images/front/search.png) no-repeat center center / auto 100%; /* 背景にアイコン画像を配置 */
-            display: inline-block; /* 高さを持たせるためにインラインブロック要素にする */
-            position: absolute;    /* 相対位置に指定 */
-            top: 4px;              /* アイコンの位置。微調整してね */
-            left: 5px;             /* アイコンの位置。微調整してね */
-        }
-        
-        > input {
-            padding: 3px 0 3px 2em; /* アイコンを設置するため左の余白を多めに指定*/
-        }
+        margin-top: 3.5rem;
+        margin-right: 10rem;
+        padding: 0 0 3px 5rem;
+        font-size: 2rem;
     }
 
     &--submit {
-        color: #808080;
+        color: #707070;
         border: 1px solid #707070;
         border-radius: 1rem;
         background: linear-gradient(#F2EDE9, #DED8E3);
@@ -82,6 +81,9 @@
         font-size: 1.6rem;
         font-weight: bold;
         vertical-align: middle;
+        position: absolute;
+        top: 3.5rem;
+        left: 26rem;
     }
 }
 
